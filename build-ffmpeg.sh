@@ -2342,6 +2342,7 @@ if build "libtheora" "1.1.1"; then
     execute ./configure --prefix="$workspace" \
                         --disable-examples \
                         --disable-oggtest \
+                        --disable-spec \
                         --disable-sdltest \
                         --disable-vorbistest \
                         --with-ogg="$workspace" \
